@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us | Pro Se Legal Desk</title>
+<meta name="description" content="Contact Pro Se Legal Desk with general questions, feedback, or website inquiries." />
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
+<link rel="stylesheet" href="../css/public.css" />
+<script src="../js/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div data-site-header></div>
+<main id="main-content">
+  <section class="hero">
+    <div class="container narrow">
+      <p class="eyebrow">Contact</p>
+      <h1>Contact Pro Se Legal Desk</h1>
+      <p class="lead">Use this page for general website feedback, resource suggestions, accessibility concerns, or editorial questions. Please do not send private legal facts or urgent court deadlines.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container narrow">
+      <div class="card">
+        <form data-contact-form>
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="name" type="text" autocomplete="name" required />
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" required />
+          <label for="contact-topic">Topic</label>
+          <select id="contact-topic" name="topic">
+            <option>Website feedback</option>
+            <option>Resource suggestion</option>
+            <option>Accessibility concern</option>
+            <option>Editorial question</option>
+          </select>
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+          <p class="form-message" data-contact-message aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Submit a Story or Blog | Pro Se Legal Desk</title>
+<meta name="description" content="Submit a civil procedure story or blog draft for Pro Se Legal Desk review." />
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
+<link rel="stylesheet" href="../css/public.css" />
+<script src="../js/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div data-site-header></div>
+<main id="main-content">
+  <section class="hero">
+    <div class="container narrow">
+      <p class="eyebrow">Submit</p>
+      <h1>Submit a Story or Blog Draft</h1>
+      <p class="lead">Share a procedural lesson, resource idea, or blog draft that may help self-represented people better understand civil court procedure.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="grid">
+        <div class="card">
+          <h2>Submission Guidelines</h2>
+          <ul>
+            <li>Focus on civil court procedure, organization, deadlines, forms, court access, filing, service, or motion practice.</li>
+            <li>Write in plain language for people who may be new to court procedure.</li>
+            <li>Do not include confidential facts, private identifying information, active case strategy, or legal advice.</li>
+            <li>Accepted upload formats: DOC, DOCX, and PDF.</li>
+            <li>Submissions may be edited, declined, or held for later review.</li>
+          </ul>
+          <p class="small">Please keep a copy of anything you submit. Submissions are reviewed before any possible publication.</p>
+        </div>
+        <div class="card">
+          <form data-submission-form>
+            <label for="submit-name">Name</label>
+            <input id="submit-name" name="name" type="text" autocomplete="name" required />
+            <label for="submit-email">Email</label>
+            <input id="submit-email" name="email" type="email" autocomplete="email" required />
+            <label for="submit-topic">Topic</label>
+            <select id="submit-topic" name="topic">
+              <option>Pre-filing</option>
+              <option>Writing a complaint</option>
+              <option>Filing and court access</option>
+              <option>Response deadlines</option>
+              <option>Motion practice</option>
+              <option>Calendar and organization</option>
+              <option>Personal procedural story</option>
+            </select>
+            <label for="submit-title">Title</label>
+            <input id="submit-title" name="title" type="text" required />
+            <label for="submit-summary">Brief summary</label>
+            <textarea id="submit-summary" name="summary" required></textarea>
+            <label for="submit-file">Upload DOC, DOCX, or PDF</label>
+            <input id="submit-file" name="submission_file" type="file" accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/pdf" required />
+            <input class="hidden-field" name="company_website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <button class="btn" type="submit">Submit for Review</button>
+            <p class="form-message" data-submission-message aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div>
+</body>
+</html>
