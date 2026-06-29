@@ -6,7 +6,7 @@ A static public website and procedural workspace prototype for Pro Se Legal Desk
 
 - `index.html` - public homepage for GitHub Pages
 - `index-basic.html` - public homepage backup copy
-- `app.html` - interactive procedural workspace prototype
+- `index-phase-2.html` - interactive procedural workspace prototype
 - `pages/` - public About, Contact, Accessibility, Terms, Privacy, and Submit pages
 - `css/public.css` - public website styling
 - `css/styles.css` - app workspace styling
